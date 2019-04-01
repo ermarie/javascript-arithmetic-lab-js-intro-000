@@ -15,12 +15,12 @@ function divide(a,b){
 }
 
 function inc(n){
-  n++
-  console.log("inc:" + n)
+  n += 2
+
   return n
 }
 
 function dec(n){
-  n--
+  n -= 2
   return n
 }
